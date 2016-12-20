@@ -1,0 +1,30 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background: #f2f2f2;
+	font-family: "Roboto";
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	font-family: "Roboto";
+}
+
+.card {
+	background: white;
+	box-shadow: 0 3px 0 0 rgba(0,0,0,.1);
+	border-radius: 3px;
+}
+
+
+.text-truncate {
+	max-width: 100%;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+	word-wrap: normal !important;
+}
+
+.break-word{word-wrap:break-word}
